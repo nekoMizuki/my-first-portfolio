@@ -155,11 +155,13 @@ li {
 }
 
 .works-list-item {
-
+  transition: opacity 0.2s, transform 0.2s;
 }
-.works-list-item-link {
-
+.works-list-item:hover {
+  transform: translateY(-10px);
+  opacity: 0.7;
 }
+
 .works-list-item-link-img {
   position: relative;
   width: 100%;
